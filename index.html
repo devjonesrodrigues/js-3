@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h1>0</h1>
+            <button class="start">Start</button>
+            <button class="stop">Stop</button>
+        </div>
+    </div>
+
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background: #6C7A89;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: #343434 0 0 100px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 60px;
+        }
+
+        .stop {
+            margin-top: 10px;
+        }
+
+        button {
+            width: 200px;
+            padding: 5px 10px 5px 10px;
+            font-size: 30px;
+            border: 0;
+            cursor: pointer;
+            margin-left: 50px;
+            border-radius: 5px;
+            border: #ddd solid 2px;
+        }
+
+        .start:hover {
+            background: #3cff00;
+            color: #fff;
+            text-shadow: #000 0 0 10px;
+            border: #44b919 solid 2px;
+        }
+
+        .stop:hover {
+            background: #ff0000;
+            color: #fff;
+            text-shadow: #000 0 0 10px;
+            border: #9d1212 solid 2px;
+        }
+    </style>
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
